@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+
+  demo-docker:
+    image: demo-docker:0.0.1
+    restart: always
+    ports:
+      - 8080:8080
+
+  demo-docker1:
+    image: demo-docker:0.0.1
+    restart: always
+    ports:
+      - 8081:8081
+
+  demo-docker2:
+    image: demo-docker:0.0.1
+    restart: always
+    ports:
+      - 8082:8082
